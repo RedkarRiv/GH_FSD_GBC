@@ -192,6 +192,7 @@ body {
     box-sizing: border-box;
     width: 90%;
     margin-top: -1.4em;
+    margin-right: -1em;
 }
 
 .curvapantalla {
@@ -202,7 +203,7 @@ body {
     border-right: 0.5em solid transparent;
     border-left: 0.5em solid transparent;
     border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 60%;
+    border-bottom-right-radius: 50%;
     border-top-left-radius: 60%;
     border-top-right-radius: 60%;
     z-index: 1;
