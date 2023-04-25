@@ -61,7 +61,7 @@ body {
 .cabezafil2 {
     display: flex;
     border: blue solid 0.16em;
-    height: 95%;
+    height: 90%;
     box-sizing: border-box;
     width: 100%;
 }
@@ -95,6 +95,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 80%;
+    background-color: black;
 }
 
 .luzpower {
@@ -103,6 +104,8 @@ body {
     width: 100%;
     box-sizing: border-box;
     border: black 0.16em solid;
+    background-color: white;
+
 }
 
 .lucecita {
@@ -132,4 +135,62 @@ body {
     font-size: 0.5em;
     font-weight: bold;
     text-align: center;
+    background-color: white;
+
+}
+
+.headpantalla {
+    background-color: black;
+    height: 15%;
+}
+
+.pantalla {
+    border: black 0.16em solid;
+    height: 70%;
+}
+
+.footerpantalla {
+    background-color: black;
+    height: 15%;
+}
+
+.footercurva {
+    display: flex;
+    height: 5%;
+    align-items: start;
+    box-sizing: border-box;
+    width: 100%;
+    border: blue solid 0.16em;
+    flex-direction: row;
+}
+
+.footercurva1 {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    width: 17%;
+    border: rgb(126, 126, 202) solid 0.16em;
+}
+
+.footercurva2 {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    width: 66%;
+    border: rgb(126, 126, 202) solid 0.16em;
+}
+
+.curvapantalla {
+    border: black 0.16em solid;
+    background-color: black;
+    width: 100%;
+    border-radius: 40%;
+}
+
+.footercurva3 {
+    display: flex;
+    height: 100%;
+    box-sizing: border-box;
+    width: 17%;
+    border: rgb(126, 126, 202) solid 0.16em;
 }
