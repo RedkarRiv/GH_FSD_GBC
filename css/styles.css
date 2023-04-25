@@ -271,6 +271,9 @@ body {
 
 .botones {
     display: flex;
+    width: 95%;
+    padding-left: 5%;
+
 }
 
 .botonayb {
@@ -296,7 +299,7 @@ body {
         "d e f"
         "g h i"
     ;
-    padding-left: 10%;
+
 
 
 }
