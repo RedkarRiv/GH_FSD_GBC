@@ -80,6 +80,7 @@ body {
 .cabezacol3 {
     border: 0.16em green solid;
     width: 25%;
+    display: flex;
 }
 
 .margenizquierdo {
@@ -200,4 +201,22 @@ body {
     box-sizing: border-box;
     width: 5%;
     /* border: rgb(126, 126, 202) solid 0.16em; */
+}
+
+.marcoderecha {
+    width: 25%;
+    border: rgb(223, 121, 25) solid 0.16em;
+    height: 100%;
+}
+
+.margenderecho {
+    width: 75%;
+    border: rgb(223, 121, 25) solid 0.16em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80%;
+    background-color: black;
+    border-bottom-right-radius: 0.5em;
+
 }
