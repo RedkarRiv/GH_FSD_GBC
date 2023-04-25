@@ -235,3 +235,40 @@ body {
     border-top-right-radius: 0.5em;
 
 }
+
+.cuerpo {
+    background-color: #F9CB49;
+}
+
+.nintendo {
+    display: flex;
+    border: brown 0.16em solid;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    border: brown 0.16em solid;
+    height: 80%;
+}
+
+.circulonintendo p {
+    display: flex;
+    border: #e1ad1c solid 0.2em;
+    width: 6em;
+    height: 0.8em;
+    color: #e1ad1c;
+    font-weight: bold;
+    box-sizing: content-box;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1em;
+}
