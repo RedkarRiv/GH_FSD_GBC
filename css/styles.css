@@ -85,7 +85,7 @@ body {
 
 .margenizquierdo {
     width: 25%;
-    border: rgb(223, 121, 25) solid 0.16em;
+    /* border: rgb(223, 121, 25) solid 0.16em; */
     height: 100%;
 }
 
@@ -98,6 +98,7 @@ body {
     padding-top: 80%;
     background-color: black;
     border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
 }
 
 .luzpower {
@@ -152,9 +153,18 @@ body {
 }
 
 .footerpantalla {
-    background-color: black;
+    display: flex;
+    /* border: purple 0.16em solid; */
     height: 15%;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
 }
+
+
 
 .footercurva {
     display: flex;
@@ -189,10 +199,11 @@ body {
     border-bottom: 1.5em solid rgb(0, 0, 0);
     border-right: 0.5em solid transparent;
     border-left: 0.5em solid transparent;
-    border-bottom-left-radius: 60%;
+    border-bottom-left-radius: 50%;
     border-bottom-right-radius: 60%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    z-index: 1;
 }
 
 .footercurva3 {
@@ -205,18 +216,19 @@ body {
 
 .marcoderecha {
     width: 25%;
-    border: rgb(223, 121, 25) solid 0.16em;
+    /* border: rgb(223, 121, 25) solid 0.16em; */
     height: 100%;
 }
 
 .margenderecho {
     width: 75%;
-    border: rgb(223, 121, 25) solid 0.16em;
+    /* border: rgb(223, 121, 25) solid 0.16em; */
     height: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 80%;
     background-color: black;
     border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
 
 }
