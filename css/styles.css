@@ -283,18 +283,70 @@ body {
     width: 50%;
     height: 100%;
     border: teal 0.16em solid;
+
 }
 
 .pad {
-    border: papayawhip solid 0.16em;
-    height: 3em;
-    width: 3em;
+    display: grid;
+    width: 50%;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (3, 1fr);
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i"
+    ;
+    padding-left: 10%;
+
+
 }
 
-
 .tecla {
-    height: 1em;
-    width: 1em;
+    height: 2em;
+    width: 2em;
     border: black 1em solid;
     background-color: transparent;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A {
+    grid-area: b;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+}
+
+.B {
+    grid-area: h;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+
+.C {
+    grid-area: e;
+    color: white;
+    background-color: black;
+
+}
+
+.D {
+    grid-area: f;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+
+.I {
+    grid-area: d;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
 }
