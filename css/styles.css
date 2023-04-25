@@ -38,7 +38,7 @@ body {
 .pies {
     width: 100%;
     height: 20%;
-    border: red solid 0.16em;
+    /* border: red solid 0.16em; */
     box-sizing: border-box;
 }
 
@@ -391,3 +391,26 @@ body {
     align-items: center;
     color: grey;
 }
+
+.pies {
+    display: flex;
+    background-color: #F9CB49;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.pieizquierdo {
+    border: black 0.16em solid;
+    width: 25%;
+}
+
+.altavoz {
+    border: black 0.16em solid;
+    width: 25%;
+}
+
+.botonesstartselect {
+    border: black 0.16em solid;
+    width: 50%;
+}
+
