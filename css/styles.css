@@ -280,6 +280,7 @@ body {
     width: 50%;
     height: 100%;
     border: teal 0.16em solid;
+    display: flex;
 }
 
 .cruceta {
@@ -301,12 +302,11 @@ body {
     ;
 
 
-
 }
 
 .tecla {
-    height: 2em;
-    width: 2em;
+    height: 2.5em;
+    width: 2.5em;
     border: black 1em solid;
     background-color: transparent;
     box-sizing: border-box;
@@ -317,7 +317,7 @@ body {
 
 .A {
     grid-area: b;
-    color: white;
+    color: grey;
     background-color: black;
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
@@ -325,7 +325,7 @@ body {
 
 .B {
     grid-area: h;
-    color: white;
+    color: grey;
     background-color: black;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
@@ -333,14 +333,14 @@ body {
 
 .C {
     grid-area: e;
-    color: white;
+    color: grey;
     background-color: black;
 
 }
 
 .D {
     grid-area: f;
-    color: white;
+    color: grey;
     background-color: black;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
@@ -348,8 +348,48 @@ body {
 
 .I {
     grid-area: d;
-    color: white;
+    color: grey;
     background-color: black;
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
+}
+
+.boton1 {
+    display: flex;
+    width: 50%;
+    border: black 0.16em solid;
+    height: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.boton2 {
+    width: 50%;
+    border: black 0.16em solid;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 18%;
+}
+
+.botona {
+    display: flex;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.botonb {
+    display: flex;
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: grey;
 }
