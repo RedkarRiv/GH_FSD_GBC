@@ -429,8 +429,8 @@ body {
 .pies {
     display: flex;
     background-color: #F9CB49;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 1.95em;
+    border-bottom-right-radius: 1.95em;
 }
 
 .pieizquierdo {
@@ -562,4 +562,48 @@ border: 1px inset orange;
  }
  .punto1 {
     background-color: #e1ad1c;
+ }
+ .curvainferiorcont {
+    display: flex;
+    width: 25em;
+    /* border: blue 0.16em solid; */
+    margin-top: -1.645em;
+    justify-content: center;
+    margin-left: 0.1%;
+
+ }
+ .curvainferior {
+    background-color: transparent;
+    width: 95%;
+box-sizing: border-box;
+    border-bottom: 2em solid #F9CB49;
+    border-right: 2em solid transparent;
+    border-left: 2em solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+    z-index: 1;
+ }
+
+ .sombracurvainferiorcont {
+    /* border: pink 0.16em solid; */
+    display: flex;
+    width: 25em;
+    justify-content: center;
+    margin-top: -1.79em;
+}
+
+ .sombracurvainferior {
+    background-color: transparent;
+    width: 95%;
+box-sizing: border-box;
+    border-bottom: 2em solid #d6ae3f;
+    border-right: 2em solid transparent;
+    border-left: 2em solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 70%;
+   
  }
