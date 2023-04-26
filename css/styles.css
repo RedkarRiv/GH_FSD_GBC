@@ -3,18 +3,33 @@ body {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
+.fondo {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/fondo1.jpg);
+    background-size:contain;
+}
+
+.fondo img {
+    display: flex;
+
+}
 
 .contenedor {
     /* border: solid 0.16em black; */
     height: 40em;
     width: 25em;
-    margin-top: 10%;
 }
 
 .cabeza {
