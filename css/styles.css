@@ -106,7 +106,7 @@ body {
     width: 75%;
     display: flex;
     flex-direction: column;
-    padding-top: 80%;
+    padding-top: 120%;
     background-color: black;
     border-bottom-left-radius: 0.5em;
     border-top-left-radius: 0.5em;
@@ -115,11 +115,10 @@ body {
 .luzpower {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
     /* border: black 0.16em solid; */
-    background-color: white;
-
+    background-color: transparent;
 }
 
 .lucecita {
@@ -128,29 +127,40 @@ body {
     font-size: 0.5em;
     font-weight: bold;
     align-items: center;
-    justify-content: center;
+ margin-left: 1em;
     box-sizing: border-box;
     border: black 0.16em solid;
+}
+.ledrojo {
+width: 1.5em;
+height: 1.5em;
+border-radius: 50%;
+background-color: rgb(94, 43, 43);
 }
 
 .simbolospower {
     display: flex;
-    font-size: 0.5em;
     font-weight: bold;
     align-items: center;
     box-sizing: border-box;
     border: black 0.16em solid;
+    margin-left: -0.5em;
+}
+
+.simbolospower img {
+width: 120%
 }
 
 .power {
-    border: black 0.16em solid;
     width: 100%;
     height: max-content;
     font-size: 0.5em;
     font-weight: bold;
     text-align: center;
-    background-color: white;
-
+    color: rgb(57, 53, 53);
+    font-size: 0.6em;
+    margin-top: -0.5em;
+    margin-left: 0.2em;
 }
 
 .headpantalla {
@@ -321,7 +331,7 @@ body {
     width: 50%;
     height: 100%;
     /* border: teal 0.16em solid; */
-
+margin-left: 1em;
 }
 
 .pad {
@@ -401,7 +411,7 @@ body {
     /* border: black 0.16em solid; */
     height: 100%;
     padding-top: 10%;
-    padding-left: 18%;
+    padding-left: 12%;
 }
 
 .botona {
