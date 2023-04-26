@@ -17,8 +17,10 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/fondo1.jpg);
-    background-size:contain;
+    background-image: url(../img/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .fondo img {
@@ -30,6 +32,7 @@ body {
     /* border: solid 0.16em black; */
     height: 40em;
     width: 25em;
+    margin-top: 8%;
 }
 
 .cabeza {
