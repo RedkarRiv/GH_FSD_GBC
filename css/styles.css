@@ -15,6 +15,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../img/fondo2.png);
@@ -41,12 +42,12 @@ body {
     height: 50%;
     /* border: red solid 0.16em; */
     box-sizing: border-box;
-    background-color: #F9CB49;
+    background-color: var(--color1);
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
     flex-direction: column;
     box-shadow:
-        inset 3px 0px #d6ae3f, inset -3px 0px #d6ae3f, inset 0px 3px #d6ae3f, inset 0px -3px transparent;
+        inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px var(--color2), inset 0px -3px transparent;
 }
 
 .cuerpo {
@@ -55,7 +56,7 @@ body {
     /* border: red solid 0.16em; */
     box-sizing: border-box;
     box-shadow:
-        inset 3px 0px #d6ae3f, inset -3px 0px #d6ae3f, inset 0px 3px transparent, inset 0px -3px transparent;
+        inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px transparent, inset 0px -3px transparent;
 }
 
 .pies {
@@ -64,7 +65,7 @@ body {
     /* border: red solid 0.16em; */
     box-sizing: border-box;
     box-shadow:
-        inset 3px 0px #d6ae3f, inset -3px 0px #d6ae3f, inset 0px 3px transparent, inset 0px -3px #d6ae3f;
+        inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px transparent, inset 0px -3px var(--color2);
 }
 
 .cabezafil1 {
@@ -83,7 +84,7 @@ body {
     margin-top: 1%;
     margin-left: 15%;
     font-weight: bold;
-    color: #e1ad1c;
+    color: var(--color3);
     text-shadow: -0.04em -0.04em 0 #7a5c07;
 
 
@@ -300,7 +301,7 @@ body {
 }
 
 .cuerpo {
-    background-color: #F9CB49;
+    background-color: var(--color1);
 }
 
 .nintendo {
@@ -309,7 +310,7 @@ body {
     height: 20%;
     align-items: center;
     justify-content: center;
-    text-shadow: -0.03em -0.03em 0 #7a5c07;
+    text-shadow: -0.03em -0.03em 0 var(--color4);
 
 }
 
@@ -320,10 +321,10 @@ body {
 
 .circulonintendo p {
     display: flex;
-    border: #e1ad1c solid 0.2em;
+    border: var(--color3) solid 0.2em;
     width: 6em;
     height: 0.8em;
-    color: #e1ad1c;
+    color: var(--color3);
     font-weight: bold;
     box-sizing: content-box;
     font-size: 1em;
@@ -334,7 +335,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.1em;
-    box-shadow: -0.03em -0.03em 0 #7a5c07, 0.03em 0.03em 0 #7a5c07;
+    box-shadow: -0.03em -0.03em 0 var(--color4), 0.03em 0.03em 0 var(--color4);
 
 }
 
@@ -511,7 +512,7 @@ body {
 
 .pies {
     display: flex;
-    background-color: #F9CB49;
+    background-color: var(--color1);
     border-bottom-left-radius: 1.95em;
     border-bottom-right-radius: 1.95em;
 }
@@ -580,10 +581,10 @@ body {
     justify-content: center;
     align-items: start;
     font-weight: bold;
-    color: #e1ad1c;
+    color: var(--color3);
     margin-top: 0.3em;
     margin-right: 0.6em;
-    text-shadow: -0.04em -0.04em 0 #7a5c07;
+    text-shadow: -0.04em -0.04em 0 var(--color4);
 
 
 }
@@ -609,10 +610,10 @@ body {
     justify-content: center;
     align-items: start;
     font-weight: bold;
-    color: #e1ad1c;
+    color: var(--color3);
     margin-top: 0.3em;
     margin-left: 0.5em;
-    text-shadow: -0.04em -0.04em 0 #7a5c07;
+    text-shadow: -0.04em -0.04em 0 var(--color4);
 
 }
 
@@ -645,7 +646,7 @@ body {
     background-color: black;
     border-radius: 50%;
     transform: skewY(10deg);
-    border: 1px inset orange;
+    border: 1px inset var(--color5);
 }
 
 .puntotrans {
@@ -658,7 +659,7 @@ body {
 }
 
 .punto1 {
-    background-color: #e1ad1c;
+    background-color: var(--color3);
 }
 
 .curvainferiorcont {
@@ -675,7 +676,7 @@ body {
     background-color: transparent;
     width: 95%;
     box-sizing: border-box;
-    border-bottom: 2em solid #F9CB49;
+    border-bottom: 2em solid var(--color1);
     border-right: 2em solid transparent;
     border-left: 2em solid transparent;
     border-bottom-left-radius: 70%;
@@ -697,12 +698,51 @@ body {
     background-color: transparent;
     width: 95%;
     box-sizing: border-box;
-    border-bottom: 2em solid #d6ae3f;
+    border-bottom: 2em solid var(--color2);
     border-right: 2em solid transparent;
     border-left: 2em solid transparent;
     border-bottom-left-radius: 70%;
     border-bottom-right-radius: 70%;
     border-top-left-radius: 70%;
     border-top-right-radius: 70%;
+}
 
+.selectordecolores {
+    display: flex;
+    justify-content: space-around;
+    width: 25rem;
+    margin-bottom: 1em;
+    margin-top: -2em;
+}
+
+.botonamarillo {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: rgb(228, 243, 18);
+    cursor: pointer;
+}
+
+.botonazul {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: rgb(48, 39, 135);
+    cursor: pointer;
+}
+
+.botonrojo {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: rgb(205, 30, 30);
+    cursor: pointer;
+}
+
+.botonverde {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: rgb(28, 189, 33);
+    cursor: pointer;
 }
