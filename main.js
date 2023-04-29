@@ -68,4 +68,10 @@ document.querySelector('.botonverde').addEventListener('click', function () {
     document.documentElement.style.setProperty('--color5', color5);
 });
 
+const botonencendido = document.querySelector('.botonesstart');
+const luzencendido = document.querySelector('.ledrojo');
+
+botonencendido.addEventListener('click', () => {
+    luzencendido.classList.toggle('ledrojoON');
+});
 
