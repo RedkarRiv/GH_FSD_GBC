@@ -369,6 +369,7 @@ body {
         "d e f"
         "g h i"
     ;
+
 }
 
 .tecla {
@@ -380,55 +381,62 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .A {
     grid-area: b;
     color: grey;
-    background-color: black;
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
     border-left: rgb(70, 66, 66) solid 0.15em;
+    border-right: rgb(11, 11, 11) solid 0.15em;
+
 
 }
 
 .B {
     grid-area: h;
     color: grey;
-    background-color: black;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-left: rgb(70, 66, 66) solid 0.15em;
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
 
 }
 
 .C {
     grid-area: e;
     color: grey;
-    background-color: black;
-
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
+    border-color: black solid 2em;
 }
 
 .D {
     grid-area: f;
     color: grey;
-    background-color: black;
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
-
-
 }
 
 .I {
     grid-area: d;
     color: grey;
-    background-color: black;
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
     border-left: rgb(70, 66, 66) solid 0.15em;
+
 }
 
 .boton1 {
@@ -552,8 +560,8 @@ body {
     align-items: center;
     width: 2.5em;
     height: 0.8em;
-    background: rgb(68, 65, 65);
-    background: linear-gradient(130deg, rgba(68, 65, 65, 1) 0%, rgba(0, 0, 0, 1) 37%);
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-radius: 40%;
     margin-right: 0.5em;
     border-top: rgb(70, 66, 66) solid 0.1em;
@@ -580,8 +588,8 @@ body {
     align-items: center;
     width: 2.5em;
     height: 0.8em;
-    background: rgb(68, 65, 65);
-    background: linear-gradient(130deg, rgba(68, 65, 65, 1) 0%, rgba(0, 0, 0, 1) 37%);
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-radius: 40%;
     margin-left: 0.4em;
     border-top: rgb(70, 66, 66) solid 0.1em;
