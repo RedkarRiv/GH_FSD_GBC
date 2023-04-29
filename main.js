@@ -13,7 +13,7 @@ document.documentElement.style.setProperty('--color5', color5);
 
 
 document.querySelector('.botonazul').addEventListener('click', function () {
-    color1 = "#495df9";
+    color1 = "#3b4fee";
     color2 = "#3f4ed6";
     color3 = "#1c1fe1";
     color4 = "#0d077a";
