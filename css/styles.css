@@ -309,7 +309,7 @@ body {
     height: 20%;
     align-items: center;
     justify-content: center;
-    text-shadow: -0.04em -0.04em 0 #7a5c07;
+    text-shadow: -0.03em -0.03em 0 #7a5c07;
 
 }
 
@@ -334,7 +334,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0.1em;
-    box-shadow: -0.03em -0.03em 0 #7a5c07, 0.01em 0.01em 0 #7a5c07;
+    box-shadow: -0.03em -0.03em 0 #7a5c07, 0.03em 0.03em 0 #7a5c07;
 
 }
 
@@ -388,8 +388,8 @@ body {
     background-color: black;
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
-    border-top:rgb(70, 66, 66) solid 0.15em;
-    border-left:rgb(70, 66, 66) solid 0.15em;
+    border-top: rgb(70, 66, 66) solid 0.15em;
+    border-left: rgb(70, 66, 66) solid 0.15em;
 
 }
 
@@ -399,7 +399,7 @@ body {
     background-color: black;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
-    border-left:rgb(70, 66, 66) solid 0.15em;
+    border-left: rgb(70, 66, 66) solid 0.15em;
 
 }
 
@@ -416,8 +416,8 @@ body {
     background-color: black;
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
-    border-top:rgb(70, 66, 66) solid 0.15em;
-    
+    border-top: rgb(70, 66, 66) solid 0.15em;
+
 
 }
 
@@ -427,8 +427,8 @@ body {
     background-color: black;
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
-    border-top:rgb(70, 66, 66) solid 0.15em;
-    border-left:rgb(70, 66, 66) solid 0.15em;
+    border-top: rgb(70, 66, 66) solid 0.15em;
+    border-left: rgb(70, 66, 66) solid 0.15em;
 }
 
 .boton1 {
@@ -446,21 +446,22 @@ body {
     width: 3.5em;
     border-radius: 50%;
     border: outset 0.1em rgb(9, 9, 9);
-    background: rgb(87,89,89);
-    background: linear-gradient(119deg, rgba(87,89,89,1) 0%, rgba(66,68,68,1) 18%, rgba(4,4,4,1) 100%);
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     justify-content: center;
     align-items: center;
     color: rgb(10, 10, 10);
 }
 
 .b {
-font-size: 2em;
-margin-left: -0.2em;
-margin-top: 0.1em;
-font-weight: bold;
-text-shadow: 0.05em 0.05em 0 rgb(117, 108, 108);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    margin-left: -0.2em;
+    margin-top: 0.1em;
+    font-weight: bold;
+    text-shadow: 0.05em 0.05em 0 rgb(117, 108, 108);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .a {
     font-size: 2em;
     margin-left: -0.2em;
@@ -468,7 +469,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     text-shadow: 0.05em 0.05em 0 rgb(117, 108, 108);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+}
 
 .boton2 {
     width: 50%;
@@ -476,7 +477,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100%;
     padding-top: 10%;
     padding-left: 12%;
-    
+
 }
 
 .botona {
@@ -485,8 +486,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 3.5em;
     border-radius: 50%;
     border: outset 0.1em rgb(9, 9, 9);
-    background: rgb(87,89,89);
-    background: linear-gradient(119deg, rgba(87,89,89,1) 0%, rgba(66,68,68,1) 18%, rgba(4,4,4,1) 100%);
+    background: rgb(87, 89, 89);
+    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     justify-content: center;
     align-items: center;
     color: rgb(10, 10, 10);
@@ -528,7 +529,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 3em;
-    margin-right: 1em;
+    margin-right: 0.5em;
 
 }
 
@@ -551,11 +552,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     width: 2.5em;
     height: 0.8em;
-    background: rgb(68,65,65);
-    background: linear-gradient(130deg, rgba(68,65,65,1) 0%, rgba(0,0,0,1) 37%);    border-radius: 40%;
-    margin-right: 0.4em;
-    border-top:rgb(70, 66, 66) solid 0.1em;
-    border-left:rgb(70, 66, 66) solid 0.1em;
+    background: rgb(68, 65, 65);
+    background: linear-gradient(130deg, rgba(68, 65, 65, 1) 0%, rgba(0, 0, 0, 1) 37%);
+    border-radius: 40%;
+    margin-right: 0.5em;
+    border-top: rgb(70, 66, 66) solid 0.1em;
+    border-left: rgb(70, 66, 66) solid 0.1em;
 
 }
 
@@ -568,7 +570,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 0.3em;
     margin-right: 0.6em;
     text-shadow: -0.04em -0.04em 0 #7a5c07;
-    
+
 
 }
 
@@ -578,12 +580,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
     width: 2.5em;
     height: 0.8em;
-    background: rgb(68,65,65);
-background: linear-gradient(130deg, rgba(68,65,65,1) 0%, rgba(0,0,0,1) 37%);
+    background: rgb(68, 65, 65);
+    background: linear-gradient(130deg, rgba(68, 65, 65, 1) 0%, rgba(0, 0, 0, 1) 37%);
     border-radius: 40%;
     margin-left: 0.4em;
-    border-top:rgb(70, 66, 66) solid 0.1em;
-    border-left:rgb(70, 66, 66) solid 0.1em;
+    border-top: rgb(70, 66, 66) solid 0.1em;
+    border-left: rgb(70, 66, 66) solid 0.1em;
 
 
 }
