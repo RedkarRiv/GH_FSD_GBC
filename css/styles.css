@@ -404,6 +404,9 @@ body {
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-left: rgb(70, 66, 66) solid 0.15em;
+    border-bottom: black solid 0.1em;
+    border-right: black solid 0.1em;
+
     background: rgb(87, 89, 89);
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
 
@@ -425,6 +428,8 @@ body {
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
+    border-bottom: black solid 0.1em;
+    border-right: black solid 0.1em;
 }
 
 .I {
@@ -436,6 +441,7 @@ body {
     border-bottom-left-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
     border-left: rgb(70, 66, 66) solid 0.15em;
+    border-bottom: black solid 0.1em;
 
 }
 
