@@ -19,11 +19,14 @@ document.querySelector('.botonazul').addEventListener('click', function () {
     color4 = "#0d077a";
     color5 = "blue";
 
+
+
     document.documentElement.style.setProperty('--color1', color1);
     document.documentElement.style.setProperty('--color2', color2);
     document.documentElement.style.setProperty('--color3', color3);
     document.documentElement.style.setProperty('--color4', color4);
     document.documentElement.style.setProperty('--color5', color5);
+
 });
 
 document.querySelector('.botonamarillo').addEventListener('click', function () {
@@ -33,12 +36,16 @@ document.querySelector('.botonamarillo').addEventListener('click', function () {
     color4 = "#7a5c07";
     color5 = "orange";
 
+
     document.documentElement.style.setProperty('--color1', color1);
     document.documentElement.style.setProperty('--color2', color2);
     document.documentElement.style.setProperty('--color3', color3);
     document.documentElement.style.setProperty('--color4', color4);
     document.documentElement.style.setProperty('--color5', color5);
+
+
 });
+
 
 document.querySelector('.botonrojo').addEventListener('click', function () {
     color1 = "#fb3434";
@@ -47,11 +54,14 @@ document.querySelector('.botonrojo').addEventListener('click', function () {
     color4 = "#7a0707";
     color5 = "red";
 
+
+
     document.documentElement.style.setProperty('--color1', color1);
     document.documentElement.style.setProperty('--color2', color2);
     document.documentElement.style.setProperty('--color3', color3);
     document.documentElement.style.setProperty('--color4', color4);
     document.documentElement.style.setProperty('--color5', color5);
+
 });
 
 document.querySelector('.botonverde').addEventListener('click', function () {
@@ -60,6 +70,8 @@ document.querySelector('.botonverde').addEventListener('click', function () {
     color3 = "#1ce133";
     color4 = "#077a11";
     color5 = "green";
+
+
 
     document.documentElement.style.setProperty('--color1', color1);
     document.documentElement.style.setProperty('--color2', color2);
@@ -72,8 +84,6 @@ const botonencendido = document.querySelector('.botonesstart');
 const luzencendido = document.querySelector('.ledrojo');
 const pantallaencendida = document.querySelector('.pantalla');
 
-
-
 botonencendido.addEventListener('click', () => {
     luzencendido.classList.toggle('ledrojoON');
     pantallaencendida.classList.toggle('pantallaON');
@@ -84,3 +94,32 @@ botonencendido.addEventListener('click', () => {
     }
 });
 
+let pokemon = document.querySelector(".muneco1");
+
+document.querySelector('.botonazul').addEventListener('click', function () {
+    pokemon.classList.remove('muneco3');
+    pokemon.classList.remove('muneco4');
+    pokemon.classList.remove('muneco1');
+    pokemon.classList.toggle('muneco2');
+});
+
+document.querySelector('.botonrojo').addEventListener('click', function () {
+    pokemon.classList.remove('muneco2');
+    pokemon.classList.remove('muneco4');
+    pokemon.classList.remove('muneco1');
+    pokemon.classList.toggle('muneco3');
+});
+
+document.querySelector('.botonverde').addEventListener('click', function () {
+    pokemon.classList.remove('muneco2');
+    pokemon.classList.remove('muneco3');
+    pokemon.classList.remove('muneco1');
+    pokemon.classList.toggle('muneco4');
+});
+
+document.querySelector('.botonamarillo').addEventListener('click', function () {
+    pokemon.classList.remove('muneco2');
+    pokemon.classList.remove('muneco3');
+    pokemon.classList.remove('muneco4');
+    pokemon.classList.toggle('muneco1');
+});
