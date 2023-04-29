@@ -70,8 +70,17 @@ document.querySelector('.botonverde').addEventListener('click', function () {
 
 const botonencendido = document.querySelector('.botonesstart');
 const luzencendido = document.querySelector('.ledrojo');
+const pantallaencendida = document.querySelector('.pantalla');
+
+
 
 botonencendido.addEventListener('click', () => {
     luzencendido.classList.toggle('ledrojoON');
+    pantallaencendida.classList.toggle('pantallaON');
+    if (pantallaencendida.classList.contains('pantallaON')) {
+        pantallaencendida.classList.remove('pantallaON');
+        void pantallaencendida.offsetWidth;
+        pantallaencendida.classList.add('pantallaON');
+    }
 });
 
