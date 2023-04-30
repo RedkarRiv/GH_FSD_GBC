@@ -980,9 +980,10 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(228, 243, 18);
-    box-shadow: 0.1em 0.1em 0.5em black;
-    border: rgb(66, 66, 1) 0.1em solid;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(255, 255, 0, 1) 0%, rgba(215, 212, 20, 1) 54%, rgba(198, 204, 17, 1) 100%);
+    box-shadow: 0.1em 0.08em 0.3em black;
+    border: rgb(198, 198, 101) 0.15em solid;
+    /* border: outset 0.1em rgb(9, 9, 9); */
     cursor: pointer;
     margin-bottom: 0.4em;
 }
@@ -991,12 +992,24 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(228, 243, 18);
-    box-shadow: 0.1em 0.1em 0.5em black;
-    border: rgb(66, 66, 1) 0.1em solid;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(255, 255, 0, 1) 0%, rgba(215, 212, 20, 1) 54%, rgba(198, 204, 17, 1) 100%);
+    border: rgb(198, 198, 101) 0.15em solid;
+    box-shadow: 0.1em 0.08em 0.3em black;
     cursor: pointer;
     margin-bottom: 0.4em;
     transform: scale(1.2);
+}
+
+.botonamarillo:active {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(255, 255, 0, 1) 0%, rgba(215, 212, 20, 1) 54%, rgba(198, 204, 17, 1) 100%);
+    border: rgb(198, 198, 101) 0.15em solid;
+    box-shadow: none;
+    cursor: pointer;
+    margin-bottom: 0.4em;
+    transform: scale(1.1);
 }
 
 
@@ -1005,10 +1018,10 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(71, 54, 221);
-    border: rgb(1, 2, 66) 0.1em solid;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(103, 128, 237, 1) 0%, rgba(49, 69, 221, 1) 54%, rgba(17, 43, 204, 1) 100%);
+    border: rgb(58, 60, 200) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
-    box-shadow: 0.1em 0.1em 0.5em black;
 
 }
 
@@ -1016,21 +1029,31 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(71, 54, 221);
-    border: rgb(1, 2, 66) 0.1em solid;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(103, 128, 237, 1) 0%, rgba(49, 69, 221, 1) 54%, rgba(17, 43, 204, 1) 100%);
+    border: rgb(58, 60, 200) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
-    box-shadow: 0.1em 0.1em 0.5em black;
     transform: scale(1.2);
+}
 
+.botonazul:active {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(103, 128, 237, 1) 0%, rgba(49, 69, 221, 1) 54%, rgba(17, 43, 204, 1) 100%);
+    border: rgb(58, 60, 200) 0.15em solid;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .botonrojo {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(205, 30, 30);
-    border: rgb(66, 1, 1) 0.1em solid;
-    box-shadow: 0.1em 0.1em 0.5em black;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(237, 103, 103, 1) 0%, rgba(221, 49, 49, 1) 54%, rgba(204, 17, 17, 1) 100%);
+    border: rgb(189, 40, 40) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
 }
 
@@ -1038,21 +1061,31 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(205, 30, 30);
-    border: rgb(66, 1, 1) 0.1em solid;
-    box-shadow: 0.1em 0.1em 0.5em black;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(237, 103, 103, 1) 0%, rgba(221, 49, 49, 1) 54%, rgba(204, 17, 17, 1) 100%);
+    border: rgb(189, 40, 40) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
     transform: scale(1.2);
+}
 
+.botonrojo:active {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(237, 103, 103, 1) 0%, rgba(221, 49, 49, 1) 54%, rgba(204, 17, 17, 1) 100%);
+    border: rgb(189, 40, 40) 0.15em solid;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .botonverde {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(28, 189, 33);
-    border: rgb(1, 66, 1) 0.1em solid;
-    box-shadow: 0.1em 0.1em 0.5em black;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(118, 237, 103, 1) 0%, rgba(49, 221, 56, 1) 54%, rgba(34, 204, 17, 1) 100%);
+    border: rgb(47, 188, 47) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
 }
 
@@ -1060,9 +1093,20 @@ body {
     width: 2em;
     height: 2em;
     border-radius: 50%;
-    background-color: rgb(28, 189, 33);
-    border: rgb(1, 66, 1) 0.1em solid;
-    box-shadow: 0.1em 0.1em 0.5em black;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(118, 237, 103, 1) 0%, rgba(49, 221, 56, 1) 54%, rgba(34, 204, 17, 1) 100%);
+    border: rgb(47, 188, 47) 0.15em solid;
+    box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
     transform: scale(1.2);
+}
+
+.botonverde:active {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background: linear-gradient(149deg, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(118, 237, 103, 1) 0%, rgba(49, 221, 56, 1) 54%, rgba(34, 204, 17, 1) 100%);
+    border: rgb(47, 188, 47) 0.15em solid;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(1.1);
 }
