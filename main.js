@@ -91,6 +91,7 @@ botonencendido.addEventListener('click', () => {
         pantallaencendida.classList.remove('pantallaON');
         void pantallaencendida.offsetWidth;
         pantallaencendida.classList.add('pantallaON');
+        pantallaencendida.style.animationPlayState = 'running';
     }
 });
 

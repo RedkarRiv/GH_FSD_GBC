@@ -40,6 +40,10 @@ body {
 .contenedortam {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -134,7 +138,7 @@ body {
     font-weight: bold;
     color: var(--color3);
     text-shadow: -0.04em -0.04em 0 #7a5c07;
-
+    user-select: none;
 
 }
 
@@ -239,6 +243,7 @@ body {
     font-size: 0.6em;
     margin-top: -0.5em;
     margin-left: 0.2em;
+    user-select: none;
 }
 
 .headpantalla {
@@ -438,7 +443,8 @@ body {
     width: 50%;
     height: 100%;
     /* border: teal 0.16em solid; */
-    margin-left: 1em;
+    margin-left: 1.3em;
+    margin-top: 0.6em;
 }
 
 .pad {
@@ -455,8 +461,8 @@ body {
 }
 
 .tecla {
-    height: 2.5em;
-    width: 2.5em;
+    height: 2em;
+    width: 2em;
     /* border: black 1em solid; */
     background-color: transparent;
     box-sizing: border-box;
@@ -574,6 +580,7 @@ body {
     outline: black solid 0.05em;
 
 
+
 }
 
 .I:active {
@@ -598,8 +605,8 @@ body {
 
 .botonb2 {
     display: flex;
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.3em;
+    width: 3.3em;
     border-radius: 50%;
     border: outset 0.1em rgb(9, 9, 9);
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
@@ -653,8 +660,8 @@ body {
 
 .botona2 {
     display: flex;
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.3em;
+    width: 3.3em;
     border-radius: 50%;
     border: outset 0.1em rgb(9, 9, 9);
     background: rgb(87, 89, 89);
@@ -703,9 +710,9 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 4em;
-    margin-top: -2.2em;
+    margin-top: -3em;
     background-image: url(../img/pikachu.png);
-    background-size: 75%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
 }
