@@ -37,6 +37,12 @@ body {
     margin: 10em;
 }
 
+.contenedortam {
+    width: 100%;
+    height: 100%;
+
+}
+
 .transforma {
     display: flex;
     flex-direction: row;
@@ -194,7 +200,6 @@ body {
     align-items: center;
     margin-left: 1em;
     box-sizing: border-box;
-    border: black 0.16em solid;
 }
 
 .ledrojo {
@@ -217,7 +222,6 @@ body {
     font-weight: bold;
     align-items: center;
     box-sizing: border-box;
-    border: black 0.16em solid;
     margin-left: -0.5em;
 }
 
@@ -385,6 +389,9 @@ body {
     user-select: none;
     background-color: var(--color1);
     margin-top: -0.5em;
+    border-right: var(--color2) solid 0.2em;
+    border-left: var(--color2) solid 0.2em;
+
 
 }
 
@@ -914,8 +921,8 @@ body {
     margin-top: -1.645em;
     justify-content: center;
     margin-left: 0.1%;
-
 }
+
 
 .curvainferior {
     background-color: transparent;

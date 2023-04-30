@@ -15,7 +15,7 @@ document.documentElement.style.setProperty('--color5', color5);
 document.querySelector('.botonazul').addEventListener('click', function () {
     color1 = "#3b4fee";
     color2 = "#3f4ed6";
-    color3 = "#1c1fe1";
+    color3 = "#101274";
     color4 = "#0d077a";
     color5 = "blue";
 
@@ -50,7 +50,7 @@ document.querySelector('.botonamarillo').addEventListener('click', function () {
 document.querySelector('.botonrojo').addEventListener('click', function () {
     color1 = "#fb3434";
     color2 = "#d63f3f";
-    color3 = "#e11c1c";
+    color3 = "#821111";
     color4 = "#7a0707";
     color5 = "red";
 
@@ -67,7 +67,7 @@ document.querySelector('.botonrojo').addEventListener('click', function () {
 document.querySelector('.botonverde').addEventListener('click', function () {
     color1 = "#83e741";
     color2 = "#41d63f";
-    color3 = "#1ce133";
+    color3 = "#116e1c";
     color4 = "#077a11";
     color5 = "green";
 
