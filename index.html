@@ -19,10 +19,25 @@
                     <div class="logogbc"><img src="./img/LogoNintendo.png" alt="Logo Power"></div>
                 </div>
                 <div class="botonescol">
-                    <div class="botonamarillo"></div>
-                    <div class="botonazul"></div>
-                    <div class="botonrojo"></div>
-                    <div class="botonverde"></div>
+                    <div class="botonamarillo"><audio id="pikachusonido">
+                            <source src="../img/pikapika.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="botonazul">
+                        <audio id="squirtlesonido">
+                            <source src="../img/squisqui.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="botonrojo">
+                        <audio id="charmandersonido">
+                            <source src="../img/charchar.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="botonverde">
+                        <audio id="bulbasursonido">
+                            <source src="../img/bulbul.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
                 </div>
             </div>
             <!-- */Game Boy/* -->
@@ -145,12 +160,16 @@
 
                         <div class="pieses botonesstartselect">
                             <div class="contenedorselect">
-                                <div class="bssd botonesselect"></div>
-                                <div class="bssd select">Select</div>
+                                <div class="botonesselect"></div>
+                                <div class="select">Select</div>
                             </div>
                             <div class="contenedorstart">
-                                <div class="bssi botonesstart"></div>
-                                <div class="bssi start">Start</div>
+                                <div class="botonesstart">
+                                    <audio id="combatesonido">
+                                        <source src="../img/combatepkm.mp3" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                                <div class="start">Start</div>
                             </div>
 
                         </div>
@@ -238,6 +257,7 @@
             </div>
         </div>
     </div>
+
     <!-- */Fichero js para la GB/* -->
 
     <script src="./main.js"> </script>

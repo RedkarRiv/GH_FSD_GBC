@@ -83,6 +83,8 @@ document.querySelector('.botonverde').addEventListener('click', function () {
 const botonencendido = document.querySelector('.botonesstart');
 const luzencendido = document.querySelector('.ledrojo');
 const pantallaencendida = document.querySelector('.pantalla');
+const button5 = document.querySelector('.botonesstart');
+const sound5 = document.querySelector('#combatesonido');
 
 botonencendido.addEventListener('click', () => {
     luzencendido.classList.toggle('ledrojoON');
@@ -92,6 +94,15 @@ botonencendido.addEventListener('click', () => {
         void pantallaencendida.offsetWidth;
         pantallaencendida.classList.add('pantallaON');
         pantallaencendida.style.animationPlayState = 'running';
+    }
+});
+
+button5.addEventListener('click', () => {
+    if (!pantallaencendida.classList.contains('pantallaON')) {
+        sound5.pause();
+    } else {
+        sound5.currentTime = 0
+        sound5.play();
     }
 });
 
@@ -123,4 +134,33 @@ document.querySelector('.botonamarillo').addEventListener('click', function () {
     pokemon.classList.remove('muneco3');
     pokemon.classList.remove('muneco4');
     pokemon.classList.toggle('muneco1');
+});
+
+
+const button = document.querySelector('.botonamarillo');
+const sound = document.querySelector('#pikachusonido');
+
+button.addEventListener('click', () => {
+    sound.play();
+});
+
+const button2 = document.querySelector('.botonazul');
+const sound2 = document.querySelector('#squirtlesonido');
+
+button2.addEventListener('click', () => {
+    sound2.play();
+});
+
+const button3 = document.querySelector('.botonrojo');
+const sound3 = document.querySelector('#charmandersonido');
+
+button3.addEventListener('click', () => {
+    sound3.play();
+});
+
+const button4 = document.querySelector('.botonverde');
+const sound4 = document.querySelector('#bulbasursonido');
+
+button4.addEventListener('click', () => {
+    sound4.play();
 });
