@@ -13,6 +13,7 @@ body {
 
 .fondo {
     display: flex;
+    padding-top: 5%;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -237,8 +238,8 @@ body {
 .pantalla {
     border-top: rgb(0, 0, 0) solid 0.3em;
     border-left: rgb(0, 0, 0) solid 0.3em;
-    border-bottom: rgb(29, 29, 29) solid 0.1em;
-    border-right: rgb(29, 29, 29) solid 0.1em;
+    border-bottom: rgb(29, 29, 29) solid 0.3em;
+    border-right: rgb(29, 29, 29) solid 0.3em;
     height: 70%;
     width: 100%;
     background: radial-gradient(circle, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(40, 40, 40, 1) 0%, rgba(33, 33, 33, 1) 16%, rgba(18, 18, 18, 1) 54%, rgba(0, 0, 0, 1) 100%);
