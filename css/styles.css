@@ -31,8 +31,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: scale(0.9);
-
+    /* transform: scale(0.9); */
+    zoom: 0.8;
 
 }
 
