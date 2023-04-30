@@ -987,6 +987,19 @@ body {
     margin-bottom: 0.4em;
 }
 
+.botonamarillo:hover {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(228, 243, 18);
+    box-shadow: 0.1em 0.1em 0.5em black;
+    border: rgb(66, 66, 1) 0.1em solid;
+    cursor: pointer;
+    margin-bottom: 0.4em;
+    transform: scale(1.2);
+
+}
+
 .botonazul {
     width: 2em;
     height: 2em;
@@ -995,6 +1008,18 @@ body {
     border: rgb(1, 2, 66) 0.1em solid;
     cursor: pointer;
     box-shadow: 0.1em 0.1em 0.5em black;
+
+}
+
+.botonazul:hover {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(71, 54, 221);
+    border: rgb(1, 2, 66) 0.1em solid;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.5em black;
+    transform: scale(1.2);
 
 }
 
@@ -1008,6 +1033,18 @@ body {
     cursor: pointer;
 }
 
+.botonrojo:hover {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(205, 30, 30);
+    border: rgb(66, 1, 1) 0.1em solid;
+    box-shadow: 0.1em 0.1em 0.5em black;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
 .botonverde {
     width: 2em;
     height: 2em;
@@ -1016,4 +1053,15 @@ body {
     border: rgb(1, 66, 1) 0.1em solid;
     box-shadow: 0.1em 0.1em 0.5em black;
     cursor: pointer;
+}
+
+.botonverde:hover {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: rgb(28, 189, 33);
+    border: rgb(1, 66, 1) 0.1em solid;
+    box-shadow: 0.1em 0.1em 0.5em black;
+    cursor: pointer;
+    transform: scale(1.2);
 }
