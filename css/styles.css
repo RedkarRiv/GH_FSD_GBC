@@ -711,7 +711,7 @@ body {
     margin-left: 4em;
     margin-top: -3em;
     background-image: url(../img/pikachu.png);
-    background-size: 70%;
+    background-size: 65%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -719,21 +719,21 @@ body {
 .muneco2 {
     height: 9em;
     width: 9em;
-    margin-left: 4em;
-    margin-top: -2em;
+    margin-left: 3em;
+    margin-top: -3em;
     background-image: url(../img/squirtle.png);
-    background-size: 70%;
+    background-size: 65%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 60%;
 }
 
 .muneco3 {
     height: 9em;
     width: 9em;
     margin-left: 4em;
-    margin-top: -2em;
+    margin-top: -3em;
     background-image: url(../img/charmander.png);
-    background-size: 65%;
+    background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -742,11 +742,11 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 4em;
-    margin-top: -2em;
+    margin-top: -3em;
     background-image: url(../img/bulbasur.png);
-    background-size: 65%;
+    background-size: 60%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 40% 70%;
 }
 
 
@@ -877,7 +877,7 @@ body {
 }
 
 .altavoz {
-    margin-top: 1.6em;
+    margin-top: 1em;
     width: 4em;
     height: 4em;
     transform: skewY(-2deg);
