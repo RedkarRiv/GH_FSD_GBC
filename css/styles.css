@@ -33,7 +33,8 @@ body {
     align-items: center;
     /* transform: scale(0.9); */
     zoom: 0.8;
-
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 .transforma {
