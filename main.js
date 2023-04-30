@@ -178,7 +178,7 @@ if (supported.test(userAgent.toLowerCase())) {
     var gold = [
         'padding: 20px 5px 16px',
         'background-color: #ACE1D7',
-        'color: #ffffff'
+        'color: #0d0000'
     ].join(';');
 
     var spacer = ['background-color: transparent'].join(';');
