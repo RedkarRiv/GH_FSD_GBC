@@ -164,3 +164,29 @@ const sound4 = document.querySelector('#bulbasursonido');
 button4.addEventListener('click', () => {
     sound4.play();
 });
+
+var userAgent = navigator.userAgent.toLowerCase();
+var supported = /(chrome|firefox)/;
+
+if (supported.test(userAgent.toLowerCase())) {
+    var dark = [
+        'padding: 20px 5px 16px',
+        'background-color: #840000',
+        'color: white'
+    ].join(';');
+
+    var gold = [
+        'padding: 20px 5px 16px',
+        'background-color: #ACE1D7',
+        'color: #ffffff'
+    ].join(';');
+
+    var spacer = ['background-color: transparent'].join(';');
+
+    var msg =
+        '\n\n %c Creado con ♥︎ por Carlos Redondo %c https://github.com/RedkarRiv %c \n\n\n';
+
+    console.log(msg, dark, gold, spacer);
+} else if (window.console) {
+    console.log('Creado con ♥︎ por Carlos Redondo - https://github.com/RedkarRiv');
+}
