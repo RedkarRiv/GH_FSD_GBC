@@ -473,7 +473,8 @@ body {
 
 .A {
     grid-area: b;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
@@ -487,7 +488,8 @@ body {
 
 .A:active {
     grid-area: b;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     background: linear-gradient(119deg, rgb(55, 56, 56) 0%, rgb(37, 38, 38) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
@@ -499,7 +501,8 @@ body {
 
 .B {
     grid-area: h;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-left: rgb(70, 66, 66) solid 0.15em;
@@ -514,7 +517,8 @@ body {
 
 .B:active {
     grid-area: h;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     border-bottom-right-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-left: rgb(70, 66, 66) solid 0.15em;
@@ -537,7 +541,8 @@ body {
 
 .D {
     grid-area: f;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     background: rgb(87, 89, 89);
     background: linear-gradient(119deg, rgba(66, 68, 68, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
@@ -552,7 +557,8 @@ body {
 
 .D:active {
     grid-area: f;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.03em 0.03em grey;
     background: rgb(87, 89, 89);
     background: linear-gradient(119deg, rgb(56, 58, 58) 0%, rgb(35, 36, 36) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
@@ -565,7 +571,8 @@ body {
 
 .I {
     grid-area: d;
-    color: grey;
+    color: rgb(31, 31, 31);
+    text-shadow: 0.02em 0.03em grey;
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
@@ -580,13 +587,16 @@ body {
 
 .I:active {
     grid-area: d;
-    color: grey;
+    color: rgb(0, 0, 0);
     background: linear-gradient(119deg, rgb(54, 55, 55) 0%, rgba(35, 36, 36), rgba(4, 4, 4, 1) 100%);
     border-top-left-radius: 0.3em;
     border-bottom-left-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-bottom: black solid 0.1em;
+    text-shadow: 0.03em 0.03em grey;
+
+
 }
 
 .boton1 {
@@ -622,6 +632,8 @@ body {
     background: linear-gradient(119deg, rgb(63, 65, 65) 0%, rgb(45, 46, 46) 18%, rgba(4, 4, 4, 1) 100%);
     justify-content: center;
     align-items: center;
+    transform: scale(0.9);
+
 }
 
 .b {
@@ -677,6 +689,7 @@ body {
     background: linear-gradient(119deg, rgb(63, 65, 65) 0%, rgb(45, 46, 46) 18%, rgba(4, 4, 4, 1) 100%);
     justify-content: center;
     align-items: center;
+    transform: scale(0.9);
 }
 
 
@@ -813,6 +826,8 @@ body {
     margin-right: 0.6em;
     border-top: rgb(70, 66, 66) solid 0.1em;
     border-left: rgb(70, 66, 66) solid 0.1em;
+    transform: scale(0.9);
+
 }
 
 
@@ -858,6 +873,7 @@ body {
     margin-left: 0.4em;
     border-top: rgb(70, 66, 66) solid 0.1em;
     border-left: rgb(70, 66, 66) solid 0.1em;
+    transform: scale(0.9);
 }
 
 .start {
