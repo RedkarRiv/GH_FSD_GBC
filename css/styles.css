@@ -13,7 +13,6 @@ body {
 
 .fondo {
     display: flex;
-    padding-top: 5%;
     width: 100vw;
     height: 100vh;
     flex-direction: column;
@@ -22,7 +21,15 @@ body {
     background-image: url(../img/fondo2.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+.fondocontenedor {
+    display: flex;
+    height: 80%;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .transforma {
@@ -763,7 +770,7 @@ body {
     height: 0.8em;
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-radius: 40%;
-    margin-right: 0.5em;
+    margin-right: 0.6em;
     border-top: rgb(70, 66, 66) solid 0.1em;
     border-left: rgb(70, 66, 66) solid 0.1em;
     cursor: pointer;
@@ -778,7 +785,7 @@ body {
     height: 0.8em;
     background: linear-gradient(119deg, rgb(56, 57, 57) 0%, rgba(39, 41, 41), rgba(4, 4, 4, 1) 100%);
     border-radius: 40%;
-    margin-right: 0.5em;
+    margin-right: 0.6em;
     border-top: rgb(70, 66, 66) solid 0.1em;
     border-left: rgb(70, 66, 66) solid 0.1em;
 }
@@ -938,7 +945,7 @@ body {
     align-items: center;
     width: 20rem;
     margin-bottom: 1em;
-    margin-top: -2em;
+    margin-top: 1em;
     padding: 1em;
     background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
     border: rgb(0, 84, 107) solid 0.1em;
@@ -986,8 +993,4 @@ body {
     border: rgb(1, 66, 1) 0.1em solid;
     box-shadow: 0.1em 0.1em 0.5em black;
     cursor: pointer;
-}
-
-.cofof {
-    color: #3b4fee
 }
