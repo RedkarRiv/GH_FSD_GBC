@@ -254,8 +254,8 @@ body {
 
 .pantalla {
 
-    border-bottom: rgb(29, 29, 29) solid 0.3em;
-    border-right: rgb(29, 29, 29) solid 0.3em;
+    border-bottom: rgb(29, 29, 29) solid 0.35em;
+    border-right: rgb(29, 29, 29) solid 0.35em;
     height: 70%;
     width: 100%;
     background: radial-gradient(circle, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(40, 40, 40, 1) 0%, rgba(33, 33, 33, 1) 16%, rgba(18, 18, 18, 1) 54%, rgba(0, 0, 0, 1) 100%);
@@ -481,7 +481,6 @@ body {
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-right: rgb(11, 11, 11) solid 0.15em;
     cursor: pointer;
-    outline: black solid 0.05em;
 
 
 }
@@ -506,9 +505,8 @@ body {
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-bottom: black solid 0.1em;
     border-right: black solid 0.1em;
-    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
+    background: linear-gradient(119deg, rgba(66, 68, 68, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     cursor: pointer;
-    outline: black solid 0.05em;
 
 
 
@@ -529,9 +527,9 @@ body {
 .C {
     grid-area: e;
     color: grey;
-    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
-    border-color: black solid 2em;
-    outline: black solid 0.05em;
+    background: linear-gradient(119deg, rgb(51, 51, 51) 0%, rgb(14, 14, 14) 18%, rgb(51, 51, 51) 100%);
+    /* border-color: black solid 2em; */
+    /* outline: black solid 0.05em; */
 
 }
 
@@ -541,14 +539,13 @@ body {
     grid-area: f;
     color: grey;
     background: rgb(87, 89, 89);
-    background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
+    background: linear-gradient(119deg, rgba(66, 68, 68, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;
     border-top: rgb(70, 66, 66) solid 0.15em;
     border-bottom: black solid 0.1em;
     border-right: black solid 0.1em;
     cursor: pointer;
-    outline: black solid 0.05em;
 
 
 }
@@ -576,7 +573,6 @@ body {
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-bottom: black solid 0.1em;
     cursor: pointer;
-    outline: black solid 0.05em;
 
 
 
@@ -715,6 +711,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
 
 .muneco2 {
     height: 9em;
