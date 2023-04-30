@@ -31,6 +31,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transform: scale(0.9);
+
 
 }
 
@@ -93,8 +95,8 @@ body {
     height: 30%;
     /* border: red solid 0.16em; */
     box-sizing: border-box;
-    box-shadow:
-        inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px transparent, inset 0px -3px transparent;
+    box-shadow: inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px transparent, inset 0px -3px transparent;
+    margin-bottom: -0.5em;
 }
 
 .pies {
@@ -104,6 +106,8 @@ body {
     box-sizing: border-box;
     box-shadow:
         inset 3px 0px var(--color2), inset -3px 0px var(--color2), inset 0px 3px transparent, inset 0px -3px var(--color2);
+    margin-top: -1em;
+
 }
 
 .cabezafil1 {
@@ -236,11 +240,12 @@ body {
 .headpantalla {
     background-color: black;
     height: 15%;
+    transform: scale(1);
+    border: black 0.5em solid;
 }
 
 .pantalla {
-    border-top: rgb(0, 0, 0) solid 0.3em;
-    border-left: rgb(0, 0, 0) solid 0.3em;
+
     border-bottom: rgb(29, 29, 29) solid 0.3em;
     border-right: rgb(29, 29, 29) solid 0.3em;
     height: 70%;
@@ -272,6 +277,8 @@ body {
     justify-content: tart;
     z-index: 2;
     position: relative;
+    border-right: black 0.5em solid;
+    border-left: black 0.5em solid;
 }
 
 .logo2 {
@@ -376,6 +383,8 @@ body {
     justify-content: center;
     text-shadow: -0.03em -0.03em 0 var(--color4);
     user-select: none;
+    background-color: var(--color1);
+    margin-top: -0.5em;
 
 }
 
@@ -460,6 +469,8 @@ body {
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-right: rgb(11, 11, 11) solid 0.15em;
     cursor: pointer;
+    outline: black solid 0.05em;
+
 
 }
 
@@ -485,6 +496,8 @@ body {
     border-right: black solid 0.1em;
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     cursor: pointer;
+    outline: black solid 0.05em;
+
 
 
 }
@@ -506,6 +519,7 @@ body {
     color: grey;
     background: linear-gradient(119deg, rgba(87, 89, 89, 1) 0%, rgba(66, 68, 68, 1) 18%, rgba(4, 4, 4, 1) 100%);
     border-color: black solid 2em;
+    outline: black solid 0.05em;
 
 }
 
@@ -522,6 +536,8 @@ body {
     border-bottom: black solid 0.1em;
     border-right: black solid 0.1em;
     cursor: pointer;
+    outline: black solid 0.05em;
+
 
 }
 
@@ -548,6 +564,8 @@ body {
     border-left: rgb(70, 66, 66) solid 0.15em;
     border-bottom: black solid 0.1em;
     cursor: pointer;
+    outline: black solid 0.05em;
+
 
 }
 
@@ -661,6 +679,7 @@ body {
     background-color: var(--color1);
     border-bottom-left-radius: 1.95em;
     border-bottom-right-radius: 1.95em;
+
 }
 
 .pieizquierdo {
@@ -677,9 +696,9 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 4em;
-    margin-top: -2.6em;
+    margin-top: -2.2em;
     background-image: url(../img/pikachu.png);
-    background-size: 80%;
+    background-size: 75%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -688,7 +707,7 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 2.5em;
-    margin-top: -2.6em;
+    margin-top: -1.5em;
     background-image: url(../img/squirtle.png);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -699,9 +718,9 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 4em;
-    margin-top: -2.6em;
+    margin-top: -2em;
     background-image: url(../img/charmander.png);
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -710,9 +729,9 @@ body {
     height: 9em;
     width: 9em;
     margin-left: 3em;
-    margin-top: -2.6em;
+    margin-top: -1em;
     background-image: url(../img/bulbasur.png);
-    background-size: 80%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
 }
