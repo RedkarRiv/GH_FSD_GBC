@@ -253,8 +253,8 @@ body {
 
 .pantalla {
 
-    border-bottom: rgb(29, 29, 29) solid 0.35em;
-    border-right: rgb(29, 29, 29) solid 0.35em;
+    border-bottom: rgb(29, 29, 29) solid 0.3em;
+    border-right: rgb(29, 29, 29) solid 0.3em;
     height: 70%;
     width: 100%;
     background: radial-gradient(circle, rgba(113, 112, 112, 1) 0%, rgba(83, 83, 83, 1) 0%, rgba(52, 52, 52, 1) 0%, rgba(40, 40, 40, 1) 0%, rgba(33, 33, 33, 1) 16%, rgba(18, 18, 18, 1) 54%, rgba(0, 0, 0, 1) 100%);
@@ -272,6 +272,8 @@ body {
     background-position: center;
     animation: animar-gif 1s;
     animation-iteration-count: infinite;
+    animation-fill-mode: none;
+
 }
 
 .footerpantalla {
@@ -391,7 +393,7 @@ body {
     text-shadow: -0.03em -0.03em 0 var(--color4);
     user-select: none;
     background-color: var(--color1);
-    margin-top: -0.5em;
+    margin-top: -0.3em;
     border-right: var(--color2) solid 0.2em;
     border-left: var(--color2) solid 0.2em;
 
