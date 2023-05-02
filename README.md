@@ -88,4 +88,6 @@ El logotipo de Nintendo y Game Boy Color, son propiedad de **Nintendo Co., Ltd.*
 
 ### Agradecimientos
 
-El creado de este simulador tambien agradece tu tiempo❤️ y tu interes❤️ en este proyecto y te invita a colaborar en el resto de proyectos que actualmente tiene en desarrollo. Si quieres saber más, por favor contacta a: *gbc_familyfriendandfools@rockon.geeks*.
+El creado de este simulador  agradece ❤️ tu tiempo y tu interes ❤️ en este proyecto. 
+
+Si eres desarrollador, diseñador o simplemente te apasiona el mundo de la programación y te gusta colaborar el el desarrollo web, desarrollo de software y desarrollo videojuegos, puedes ponerte en contacto con nuestro equipo en: *gbc_friendfamilyandfools@rockon.geeks*.
