@@ -136,7 +136,7 @@ body {
     font-weight: bold;
     color: var(--color3);
     text-shadow: -0.04em -0.04em 0 #7a5c07;
-    user-select: none;
+    /* user-select: none; */
 
 }
 

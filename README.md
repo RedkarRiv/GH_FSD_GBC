@@ -1,28 +1,57 @@
 # Game Boy Color - by RedkarRiv
-Proyecto 1 - Videoconsola con CSS
+Proyecto 1 GeeksHubs- Videoconsola con HTML, CSS y Javascript.
 
-## Tabla de contenidos
+## Índice
 
-- [Cómo funciona🕹️](#cómo-funciona)
-- [Referencias📷](#referencias)
-- [Desarrollo⛏️](#desarrollo)
-- [Errores conocidos⛑️](#errores-conocidos)
-- [Licencia y Copyright📃](#licencia-y-copyright)
+- [⚙️Cómo funciona la Game Boy Color🕹️](#cómo-funciona)
+- [🧩Fuentes y referencias👾](#fuentes-y-referencias)
+- [🛠️Cómo se hizo la Game Boy Color⛏️](#desarrollo)
+- [⚠️Errores conocidos🐛](#errores-conocidos)
+- [🪪Licencia y Copyright💸](#licencia-y-copyright)
+
+🕹️🎮⏯️👈👉👆👇☝️🎬🎼🖱️🎶🔕
+©️®️🚨💽
 
 ### Cómo funciona
 
-Esta réplica de la videoconsola portátil Nintendo Game Boy Color puede ejecutarse desde el navegador web y es capaz de realizar varias acciones:
-- Pulsando el botón **START**, la consola lanza en su pantalla una animación del arranque original de la consola, además de iluminar el piloto **led** que encontramos junto al símbolo **POWER**.
+El simulador de la **🎮GAME BOY Color🎮 - by Redkar Rival** se puede ejecutar en navegadores web 🖥️ y teléfonos moviles 📱 con una visibilidad y funcionalidad optima en ambos dispositivos.
 
-![image](https://user-images.githubusercontent.com/122631261/213938478-1f1c34cb-99ae-48b1-b176-dcbd382a916c.png)
+1. Las funciones de la **🎮GAME BOY Color🎮** son:
 
-- Situando el cursor sobre el cartucho que encontrarás a la derecha de la consola, este realizará una transición, aumentando de tamaño, si pulsas sobre él, la animación que la consola lanzará esta vez será de una de las escenas más representativas del juego original, Pokémon Amarillo.
+- 🎨Selector de colores: Puedes hacer "click" en cualquiera de los botones del selector de colores para cambiar el color de la **🎮GAME BOY Color🎮** y aplicar los siguientes efectos.
 
-![image](https://user-images.githubusercontent.com/122631261/213938710-b0904325-911b-4f54-a3cd-6fad655169cb.png)
 
-- Todos los botones **cambiarán de aspecto al clicar** sobre ellos, aunque a excepción del botón START, ninguno realizará otra acción.
+    - 👾 Sticker Pokemon en la parte inferior izquierda de la pantalla: Puedes volver a "clickar" en el color que esta seleccionado para quitarlo de la visualización.
+    - 🔔 Sonido Pokemon: Cada vez que hagas "click" en uno de los colores, se producirá el sonido caracteristico del pokemon que aparece en el sticker. 
+    
+*🔕 Si no quieres reproducir estos sonidos, solo tienes que silenciar tu dispositivo o silenciar la página web (haciendo click derecho en la pesña y seleccionando la opción "Silenciar Sitio").*
 
-### Referencias
+- ⏯️START: Cuando pulsas el botón **START** se aplicarán los siguientes efectos:
+
+    - 🚨Se enciende el led rojo de POWER de la consola.
+    - 🎬Se inicia un gif en la pantalla que simula en arranque de la consola original.
+    - 🎶Se reproduce el sonido del inicio del combate pokemon de las primeras generaciones (Pokemon Rojo, Pokemon Azul, Pokemon Verde y Pokemon Amarillo). 
+
+*🔕 Si no quieres reproducir estos sonidos, solo tienes que silenciar tu dispositivo o silenciar la página web (haciendo click derecho en la pesña y seleccionando la opción "Silenciar Sitio").*
+
+Si vuelves a pulsar START; se apagará el led rojo, se apagará la pantalla y se detendrá el efecto de sonido.
+
+2. Los efectos de la **🎮GAME BOY Color🎮** son:
+
+- 👆Pointer (puntero del ratón): 
+   - 🔘Cuando se pasa por encima de los botones del selector de color, estos aumentan de tamaño.
+
+   - ⚫Cuando se pulsan los botones del selector de color, los **botones A/B**, las teclas **Arriba, Abajo, Derecha e Izquierda** de la cruceta y los botones **START** y **SELECT**, se simula un efecto de presión eliminado el sombreado y aumentando la opacidad del color de relleno. Estos efectos desaparecen al soltar el botón para representar une efecto realista.
+
+*Se ha incluido la propiedad "Pointer" para facilitar al usuario que reconozca los elementos "clickables" de la pagina.*
+
+<!-- 
+
+
+![image](https://user-images.githubusercontent.com/122631261/213938710-b0904325-911b-4f54-a3cd-6fad655169cb.png) -->
+
+
+### Fuentes y referencias
 
 El modelo y todos los detalles que incluye están basados en la videoconsola portátil **Nintendo Game Boy Color**, lanzada al mercado en Japón el 22 de octubre de 1998.
 
