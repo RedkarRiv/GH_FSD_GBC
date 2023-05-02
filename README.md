@@ -44,7 +44,7 @@ Si vuelves a pulsar **START**; se apagará el led rojo, se apagará la pantalla 
 - 👆Pointer (puntero del ratón): 
    - 🔘Cuando se pasa por encima de los botones del selector de color, estos aumentan de tamaño.
 
-   - ⚫Cuando se pulsan los botones del selector de color, los **botones A/B**, las teclas **Arriba, Abajo, Derecha e Izquierda** de la cruceta y los botones **START** y **SELECT**, se simula un efecto de presión eliminado el sombreado y aumentando la opacidad del color de relleno. Estos efectos desaparecen al soltar el botón para representar une efecto realista.
+   - ⚫Cuando se pulsan los botones del selector de color, los **botones A/B**, las teclas **Arriba, Abajo, Derecha e Izquierda** de la cruceta y los botones **START** y **SELECT**, se simula un efecto de presión eliminado el sombreado y aumentando la opacidad del color de relleno. Estos efectos desaparecen al soltar el botón para representar un efecto realista.
 
 *Se ha incluido la propiedad "Pointer" para facilitar al usuario que reconozca los elementos "clickables" de la pagina.*
 
