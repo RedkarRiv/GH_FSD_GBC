@@ -31,7 +31,7 @@ El simulador de la **🎮GAME BOY Color🎮 - by Redkar Rival** se puede ejecuta
 
 *🔕 Si no quieres reproducir estos sonidos, solo tienes que silenciar tu dispositivo o silenciar la página web (haciendo click derecho en la pesña y seleccionando la opción "Silenciar Sitio").*
 
-Si vuelves a pulsar START; se apagará el led rojo, se apagará la pantalla y se detendrá el efecto de sonido.
+Si vuelves a pulsar **START**; se apagará el led rojo, se apagará la pantalla y se detendrá el efecto de sonido.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC1.png"  width="" height="400">
