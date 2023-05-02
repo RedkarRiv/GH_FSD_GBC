@@ -9,8 +9,6 @@ Proyecto 1 GeeksHubs- Videoconsola con HTML, CSS y Javascript.
 - [⚠️Errores conocidos🐛](#errores-conocidos)
 - [🪪Licencia y Copyright💸](#licencia-y-copyright)
 
-🕹️🎮⏯️👈👉👆👇☝️🎬🎼🖱️🎶🔕
-©️®️🚨💽
 
 ### Cómo funciona
 
@@ -34,6 +32,12 @@ El simulador de la **🎮GAME BOY Color🎮 - by Redkar Rival** se puede ejecuta
 
 Si vuelves a pulsar START; se apagará el led rojo, se apagará la pantalla y se detendrá el efecto de sonido.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC1.png"  width="" height="400">
+
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC4.png"  width="" height="400">
+</p>
+
 2. Los efectos de la **🎮GAME BOY Color🎮** son:
 
 - 👆Pointer (puntero del ratón): 
@@ -53,15 +57,25 @@ El lanzamiento de esta videoconsola coincide con la aparición de los juegos POK
 
 Durante el desarrollo de la gameboy se ha utilizado: HTML para la distribución y composición de los elementos, CSS para el formato y los estilos de los elementos del HTML y Javascript para la interacción y animación.
 
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/html1.png"  width="" height="400">
+
 - La estructura principal de la gameboy se ha realizado aplicando un *display: flex* utilizando una tecnica de "puzzle" mediante la cual se ha ido creando cada elemento individualmente.
 
 - La cruceta se ha creado mediante *display: grid* para mejorar la composición de los botones y la distribución de tamaños. 
 
 - Todos los elementos se han creado desde cero utilizando el CSS a excepción del logo *GAME BOY Color*, los stickers de los pokemons y el fondo de pantalla.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC2.png"  width="" height="400">
+
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC3.png" width="" height="400">
+</p>
+
 ### Errores conocidos
 
 A pesar de que las funcionalidades de la simulación funcionan correctamente, el GIF que se produce al pulsar el boton **START** no se reinicia si se apaga y se enciende la consola en repetidas ocasiones, sino que recupera el ultimo punto en el que se encontraba. Al ser un GIF de una animación y finalizar con el logo estatico, el impacto en la simulación es minimo.
+
+
 
 ### Licencia y Copyright
 
