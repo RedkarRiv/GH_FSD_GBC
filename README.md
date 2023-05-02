@@ -67,7 +67,7 @@ Durante el desarrollo de la gameboy se ha utilizado: HTML para la distribución 
 
 - La cruceta se ha creado mediante **display: grid** para mejorar la composición de los botones y la distribución de tamaños. 
 
-- Todos los elementos se han creado desde cero utilizando el CSS a excepción del logo 🕹️**GAME BOY Color**, los stickers de los 👾 pokemons y el fondo de pantalla.
+- Todos los elementos se han creado desde cero utilizando el CSS, a excepción del logo 🕹️**GAME BOY Color**, los stickers de los 👾 pokemons y el fondo de pantalla.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC2.png"  width="" height="400">
@@ -92,7 +92,7 @@ El logotipo de Nintendo y Game Boy Color, son propiedad de **Nintendo Co., Ltd.*
 
 El creado de este simulador  agradece ❤️ tu tiempo y tu interes ❤️ en este proyecto. 
 
-Si eres desarrollador, diseñador o simplemente te apasiona el mundo de la programación y te gusta colaborar el el desarrollo web, desarrollo de software y desarrollo videojuegos, puedes ponerte en contacto con nuestro equipo en: *gbc_friendfamilyandfools@rockon.geeks*.
+Si eres desarrollador, diseñador o simplemente te apasiona el mundo de la programación y te gusta colaboraria en el desarrollo web, de software y/o de videojuegos, puedes ponerte en contacto con nuestro equipo en: *gbc_friendsfamilyandfools@rockon.geeks*.
 <p align="center">
 <img src="https://media.giphy.com/media/R6gvnAxj2ISzJdbA63/giphy-downsized.gif" alt="Alt Text" width="200px">
 </p>
