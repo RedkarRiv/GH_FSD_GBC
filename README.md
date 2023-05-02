@@ -8,6 +8,7 @@ Proyecto 1 GeeksHubs- Videoconsola con HTML, CSS y Javascript.
 - [🛠️Cómo se hizo la Game Boy Color⛏️](#cómo-se-hizo)
 - [⚠️Errores conocidos🐛](#errores-conocidos)
 - [🪪Licencia y Copyright💸](#licencia-y-copyright)
+- [👏Agradecimientos😍](#agradecimientos)
 
 
 ### Cómo funciona
@@ -49,21 +50,22 @@ Si vuelves a pulsar START; se apagará el led rojo, se apagará la pantalla y se
 
 ### Fuentes y referencias
 
-El diseño se ha inspirado en la clasica Game Boy Color comercializada por primera vez en España el 23 de noviembre 1998 por NINTENDO Company.
+El diseño se ha inspirado en la clasica Game Boy Color comercializada por primera vez en España el 23 de noviembre 1998 por **NINTENDO Company**.
 
-El lanzamiento de esta videoconsola coincide con la aparición de los juegos POKEMON y supone una autentica revolución en el mundo de los RPG. Por este motivo se han incluido referencias de diseño al lore POKEMON ROJO, AZUL, AMARILLO y VERDE.
+El lanzamiento de esta videoconsola coincide con la aparición de los juegos **POKEMON** y supone una autentica revolución en el mundo de los RPG. Por este motivo se han incluido referencias de diseño al lore **POKEMON ROJO, AZUL, AMARILLO y VERDE**.
 
 ### Cómo se hizo
 
 Durante el desarrollo de la gameboy se ha utilizado: HTML para la distribución y composición de los elementos, CSS para el formato y los estilos de los elementos del HTML y Javascript para la interacción y animación.
 
-<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/html1.png"  width="" height="400">
+<p align="center">
+<img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/html1.png"  width="" height="100"></p>
 
-- La estructura principal de la gameboy se ha realizado aplicando un *display: flex* utilizando una tecnica de "puzzle" mediante la cual se ha ido creando cada elemento individualmente.
+- La estructura principal de la gameboy se ha realizado aplicando un **display: flex** utilizando una tecnica de "🧩puzzle" mediante la cual se ha ido creando cada elemento individualmente.
 
-- La cruceta se ha creado mediante *display: grid* para mejorar la composición de los botones y la distribución de tamaños. 
+- La cruceta se ha creado mediante **display: grid** para mejorar la composición de los botones y la distribución de tamaños. 
 
-- Todos los elementos se han creado desde cero utilizando el CSS a excepción del logo *GAME BOY Color*, los stickers de los pokemons y el fondo de pantalla.
+- Todos los elementos se han creado desde cero utilizando el CSS a excepción del logo 🕹️**GAME BOY Color**, los stickers de los 👾 pokemons y el fondo de pantalla.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/RedkarRiv/GH_FSD_GBC/master/img/GBC2.png"  width="" height="400">
@@ -75,8 +77,15 @@ Durante el desarrollo de la gameboy se ha utilizado: HTML para la distribución 
 
 A pesar de que las funcionalidades de la simulación funcionan correctamente, el GIF que se produce al pulsar el boton **START** no se reinicia si se apaga y se enciende la consola en repetidas ocasiones, sino que recupera el ultimo punto en el que se encontraba. Al ser un GIF de una animación y finalizar con el logo estatico, el impacto en la simulación es minimo.
 
+Si detectas algún otro bug, por favor reportalo a *gbc_bugsreport@rockon.geeks*.
+
+Muchas gracias por tu colaboración.
 
 
 ### Licencia y Copyright
 
-El logotipo de Nintendo y Game Boy Color, son propiedad de Nintendo Co., Ltd. Las imágenes representadas en las stickers pertenecen a Nintendo y The Pokémon Company.
+El logotipo de Nintendo y Game Boy Color, son propiedad de **Nintendo Co., Ltd.** Las imágenes representadas en las stickers pertenecen a **Nintendo y The Pokémon Company**.
+
+### Agradecimientos
+
+El creado de este simulador tambien agradece tu tiempo❤️ y tu interes❤️ en este proyecto y te invita a colaborar en el resto de proyectos que actualmente tiene en desarrollo. Si quieres saber más, por favor contacta a: *gbc_familyfriendandfools@rockon.geeks*.
