@@ -48,6 +48,8 @@ Si vuelves a pulsar **START**; se apagará el led rojo, se apagará la pantalla 
 
 *Se ha incluido la propiedad "Pointer" para facilitar al usuario que reconozca los elementos "clickables" de la pagina.*
 
+*Se ha incluido una alerta al carga la página que avisa al usuario de que active el sonido si quiere disfrutar de una experiencia completa*
+
 ### Fuentes y referencias
 
 El diseño se ha inspirado en la clasica Game Boy Color comercializada por primera vez en España el 23 de noviembre 1998 por **NINTENDO Company**.
