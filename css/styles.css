@@ -1104,6 +1104,8 @@ body {
     border: rgb(47, 188, 47) 0.15em solid;
     box-shadow: 0.1em 0.1em 0.3em black;
     cursor: pointer;
+    COLOR: #6a6969
+
 }
 
 .botonverde:hover {
