@@ -92,4 +92,5 @@ El creado de este simulador  agradece ❤️ tu tiempo y tu interes ❤️ en es
 
 Si eres desarrollador, diseñador o simplemente te apasiona el mundo de la programación y te gusta colaborar el el desarrollo web, desarrollo de software y desarrollo videojuegos, puedes ponerte en contacto con nuestro equipo en: *gbc_friendfamilyandfools@rockon.geeks*.
 <p align="center">
-<iframe src="https://giphy.com/embed/R6gvnAxj2ISzJdbA63" width="200" height="" frameBorder="0" class="giphy-embed"></iframe><p>
+<img src="https://media.giphy.com/media/R6gvnAxj2ISzJdbA63/giphy-downsized.gif" alt="Alt Text" width="200px">
+</p>
